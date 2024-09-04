@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>ASTROVERSÁRIO</title>
+</head>
+
+<body>
+
+  <div class="tela" id="inicial">
+    <div class="principal">
+      <form id="form">
+        <label for="nascimento">Digite a data de nascimento:</label>
+        <div class="data">
+          <input class="secundario" type="text" id="dia" name="nascimento" maxlength="2" placeholder="DD">
+          <input class="secundario" type="text" id="mes" name="nascimento" maxlength="2" placeholder="MM">
+          <input class="secundario ano" type="text" id="ano" name="nascimento" maxlength="4" placeholder="AAAA">
+        </div>
+      </form>
+      <div id="resultado" class="texto erro"></div>
+    </div>
+    <button type="submit" class="check"></button>
+  </div>
+
+  <div class="tela" id="navegacao">
+    <div class="hero">
+      <button class="anterior"></button>
+      <div class="principal">
+        <div class="principal planeta">
+          <span class="nome">Planeta</span>
+          <img src="images/planeta.svg" alt="">
+        </div>
+        <div class="secundario">
+          <span class="texto">Idade:</span>
+          <span>XX anos, XX meses, XX dias</span>
+        </div>
+        <div class="secundario">
+          <span class="texto">Próximo aniversário:</span>
+          <span>XX/XX/XXXX</span>
+        </div>
+      </div>
+      <button class="proximo"></button>
+    </div>
+    <button class="restart"></button>
+  </div>
+
+</body>
+</html>

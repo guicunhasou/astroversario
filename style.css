@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1vw;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+  color: #732373;
+  background: url(images/bg.svg) #732673 50% / cover no-repeat;
+}
+
+.texto{
+  font-size: 0.8vw;
+  color: #2E052E;
+}
+
+.tela{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.principal{
+  padding: 2vw;
+  background-color: #d7c1d7f7;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.secundario{
+  padding: 1vw;
+  background-color: #c2a3c2fa;
+  border-radius: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.data{
+  display: flex;
+  gap: 1vw;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+input{
+  all: unset;
+  width: 3vw;
+}
+
+.ano{
+  width: 6vw;
+}
+
+.erro{
+  display: none;
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.planeta{
+  background: radial-gradient(78.62% 81.4% at 50% 55.4%, #1D0C2B 28%, #3A1F4F 57%, #53306F 100%);
+  display: flex;
+  align-items: center;
+}
+
+.planeta img{
+  width: 15vw;
+}
+
+.nome{
+  color: #d7c1d7f7;
+  font-size: 1.4vw;
+}
+
+button{
+  all: unset;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #c2a3c2fa;
+}
+
+button:active{
+  background-color: #732673ee;
+}
+
+.check{
+  background: url(images/btn-check.svg) #d7c1d7f7 50% no-repeat;
+}
+
+.restart{
+  background: url(images/btn-restart.svg) #d7c1d7f7 50% no-repeat;
+}
+
+.anterior{
+  background: url(images/btn-anterior.svg) #d7c1d7f7 40% no-repeat;
+}
+
+.proximo{
+  background: url(images/btn-proximo.svg) #d7c1d7f7 60% no-repeat;
+}
