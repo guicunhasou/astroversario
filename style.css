@@ -27,7 +27,7 @@ body{
 
 .principal{
   padding: 2vw;
-  background-color: #d7c1d7f7;
+  background-color: #e0d1e0fa;
   border-radius: 3vw;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,7 @@ input{
 }
 
 .nome{
-  color: #d7c1d7f7;
+  color: #e0d1e0fa;
   font-size: 1.4vw;
 }
 
@@ -99,25 +99,25 @@ button{
 }
 
 button:hover{
-  background-color: #c2a3c2fa;
+  background-color: #b894b8fa;
 }
 
 button:active{
-  background-color: #732673ee;
+  background-color: #8a5c8afa;
 }
 
 .check{
-  background: url(images/btn-check.svg) #d7c1d7f7 50% no-repeat;
+  background: #e0d1e0fa url(images/btn-check.svg) 50% 50% / cover no-repeat;
 }
 
 .restart{
-  background: url(images/btn-restart.svg) #d7c1d7f7 50% no-repeat;
+  background: #e0d1e0fa url(images/btn-restart.svg) 50% 50% / 75% no-repeat;
 }
 
 .anterior{
-  background: url(images/btn-anterior.svg) #d7c1d7f7 40% no-repeat;
+  background: #e0d1e0fa url(images/btn-anterior.svg) 40% 50% / 50% no-repeat;
 }
 
 .proximo{
-  background: url(images/btn-proximo.svg) #d7c1d7f7 60% no-repeat;
+  background: #e0d1e0fa url(images/btn-proximo.svg) 60% 50% / 50% no-repeat;
 }
