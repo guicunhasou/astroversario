@@ -13,6 +13,13 @@ body{
   background: url(images/bg.svg) #732673 50% / cover no-repeat;
 }
 
+.logo{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 30vw;
+}
+
 .texto{
   font-size: 0.8vw;
   color: #2E052E;
@@ -107,17 +114,25 @@ button:active{
 }
 
 .check{
-  background: #e0d1e0fa url(images/btn-check.svg) 50% 50% / cover no-repeat;
+  background: #e0d1e0fa url(images/btn-check.svg) 50% 50% / 95% no-repeat;
 }
 
 .restart{
-  background: #e0d1e0fa url(images/btn-restart.svg) 50% 50% / 75% no-repeat;
+  background: #e0d1e0fa url(images/btn-restart-2.svg) 50% 50% / 75% no-repeat;
 }
 
 .anterior{
-  background: #e0d1e0fa url(images/btn-anterior.svg) 40% 50% / 50% no-repeat;
+  background: #e0d1e0fa url(images/btn-anterior.svg) 40% 50% / 40% no-repeat;
 }
 
 .proximo{
-  background: #e0d1e0fa url(images/btn-proximo.svg) 60% 50% / 50% no-repeat;
+  background: #e0d1e0fa url(images/btn-proximo.svg) 60% 50% / 40% no-repeat;
 }
+
+/* #inicial{
+  display: none;
+}
+
+#navegacao{
+  display: none;
+} */
