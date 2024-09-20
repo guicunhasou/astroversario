@@ -15,8 +15,8 @@ body{
 
 .logo{
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vw;
+  right: 2vw;
   width: 30vw;
 }
 
@@ -33,21 +33,20 @@ body{
 }
 
 .principal{
-  padding: 2vw;
   background-color: #e0d1e0fa;
-  border-radius: 3vw;
+  padding: 2vw;
+  border-radius: 2vw;
   display: flex;
   flex-direction: column;
   gap: 1vw;
 }
 
 .secundario{
-  padding: 1vw;
   background-color: #c2a3c2fa;
-  border-radius: 1.5vw;
+  padding: 1vw;
+  border-radius: 1vw;
   display: flex;
   flex-direction: column;
-  gap: 0.5vw;
 }
 
 .data{
@@ -68,7 +67,7 @@ input{
 }
 
 .ano{
-  width: 6vw;
+  width: 5vw;
 }
 
 .erro{
@@ -129,10 +128,135 @@ button:active{
   background: #e0d1e0fa url(images/btn-proximo.svg) 60% 50% / 40% no-repeat;
 }
 
-/* #inicial{
+#inicial{
   display: none;
+} 
+
+/* #navegacao{
+  display: none;
+}  */
+
+@media (max-width: 1440px) {
+
+  body{
+    font-size: 1.5vw;
+  }
+  
+  .texto{
+    font-size: 1.2vw;
+  }
+  
+  .tela{
+    gap: 1.5vw;
+  }
+  
+  .principal{
+    padding: 2.5vw;
+    border-radius: 2.5vw;
+    gap: 1.5vw;
+  }
+  
+  .secundario{
+    padding: 1.5vw;
+    border-radius: 1.5vw;
+  }
+  
+  .data{
+    gap: 1.5vw;
+  }
+  
+  form{
+    gap: 1.5vw;
+  }
+  
+  input{
+    width: 4vw;
+  }
+  
+  .ano{
+    width: 7vw;
+  }
+  
+  .hero{
+    gap: 1.5vw;
+  }
+  
+  .planeta img{
+    width: 20vw;
+  }
+  
+  .nome{
+    font-size: 2vw;
+  }
+  
+  button{
+    width: 5vw;
+    height: 5vw;
+  }
+
 }
 
-#navegacao{
-  display: none;
-} */
+
+@media (max-width: 1024px) {
+  
+  body{
+    font-size: 3vw;
+  }
+
+  .logo{
+    width: 40vw;
+  }
+
+  .texto{
+    font-size: 2.5vw;
+  }
+  
+  .tela{
+    gap: 3vw;
+  }
+  
+  .principal{
+    padding: 5vw;
+    border-radius: 5vw;
+    gap: 3vw;
+  }
+  
+  .secundario{
+    padding: 3vw;
+    border-radius: 3vw;
+  }
+  
+  .data{
+    gap: 3vw;
+  }
+  
+  form{
+    gap: 3vw;
+  }
+  
+  input{
+    width: 8vw;
+  }
+  
+  .ano{
+    width: 12vw;
+  }
+  
+  .hero{
+    gap: 3vw;
+  }
+  
+  .planeta img{
+    width: 40vw;
+  }
+  
+  .nome{
+    font-size: 4vw;
+  }
+  
+  button{
+    width: 10vw;
+    height: 10vw;
+  }
+
+}
